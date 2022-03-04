@@ -1,0 +1,38 @@
+{
+  "name": "thecupcafe",
+  "version": "1.0.0",
+  "description": "Build chatbot for The Cup Cafe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanlinh141/Thecupcafechatbot.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Chatbot",
+    "TheCupCafe",
+    "Messenger"
+  ],
+  "author": "Linh14dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanlinh141/Thecupcafechatbot/issues"
+  },
+  "homepage": "https://github.com/vanlinh141/Thecupcafechatbot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
